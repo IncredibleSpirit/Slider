@@ -83,18 +83,22 @@ button:focus {
   left: 35%;
   top: 50%;
   z-index: 100;
+  background-color: transparent;
+}
+
+.container .controls button:hover {
+  opacity: 70%;
+  border:  2px solid #aaa;
 }
 
 .container .controls .down-button {
   transform: translateX(-100%);
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 10px;
 }
 
 .container .controls .up-button {
   transform: translateY(-100%);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 10px;
 }
 
 .sidebar div:nth-child(5) h1 {
@@ -106,6 +110,7 @@ button:focus {
   padding: 30px;
   padding-left: 40px;
   }
+
 .corrections {
   font-style: italic;
 }
